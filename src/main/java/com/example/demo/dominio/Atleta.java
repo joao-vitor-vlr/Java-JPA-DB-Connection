@@ -1,4 +1,4 @@
-package proj;
+package com.example.demo.dominio;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -10,6 +10,7 @@ import java.time.LocalDate;
 public class Atleta {
     @Id
     @Column(name = "cpf", nullable = false)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
 
     @Column(name = "nomeAtleta", length = 45)

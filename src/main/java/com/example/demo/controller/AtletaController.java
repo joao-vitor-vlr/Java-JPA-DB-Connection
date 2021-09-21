@@ -1,5 +1,7 @@
-package proj;
+package com.example.demo.controller;
 
+import com.example.demo.dominio.Atleta;
+import com.example.demo.repositorio.AtletaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

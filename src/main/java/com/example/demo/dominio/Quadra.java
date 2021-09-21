@@ -1,4 +1,4 @@
-package proj;
+package com.example.demo.dominio;
 
 import javax.persistence.*;
 
@@ -9,6 +9,7 @@ import javax.persistence.*;
 public class Quadra {
     @Id
     @Column(name = "idQuadra", nullable = false)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Integer id;
 
     @Column(name = "nomeQuadra", length = 45)

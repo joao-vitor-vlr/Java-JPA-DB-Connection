@@ -1,7 +1,7 @@
-package proj;
+package com.example.demo.repositorio;
 
+import com.example.demo.dominio.Quadra;
 import org.springframework.data.jpa.repository.JpaRepository;
-import proj.Quadra;
 
 public interface QuadraRepository extends JpaRepository<Quadra, Integer> {
 }
